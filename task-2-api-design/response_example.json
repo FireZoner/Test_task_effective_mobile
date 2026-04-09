@@ -1,0 +1,44 @@
+{
+  "code": 200,
+  "message": "OK",
+  "data": {
+    "stores": [
+      {
+        "id": 101,
+        "name": "METRO",
+	"image_url": "https://metro.ru/logos/logo.png",
+	"external_url": "https://metro.ru",
+        "text": "Ближайшая доставка сегодня 21:00-23:00"
+      },
+      {
+        "id": 102,
+        "name": "Ашан",
+	"image_url": "https://auchan.ru/logos/logo.png",
+	"external_url": "https://auchan.ru",
+        "text": "Ближайшая доставка сегодня 18:00-20:00"
+      },
+      {
+        "id": 103,
+        "name": "ВкусВилл",
+	"image_url": "https://vkusvill.ru/logos/logo.png",
+	"external_url": "https://vkusvill.ru",
+        "delivery_text": "Быстрая доставка от 20 до 60 минут"
+      },
+      {
+        "id": 104,
+        "name": "ВИКТОРИЯ",
+	"image_url": "https://victoria-group.ru/logos/logo.png",
+	"external_url": "https://victoria-group.ru",
+        "text": "Ближайшая доставка сегодня 17:00-19:00"
+      }
+    ],
+    "pagination": {
+      "total": 4,
+      "limit": 4,
+      "offset": 0
+    },
+    "filters": {
+      "city": "Москва"
+    }
+  }
+}

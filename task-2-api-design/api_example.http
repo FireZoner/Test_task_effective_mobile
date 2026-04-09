@@ -1,0 +1,13 @@
+При переходе пользователя на экран "Магазины партнёров":
+GET https://{домен}/api/v1/partners/stores
+Accept: application/json
+
+Если список магазинов-партнёров видны только после авторизации, то запрос будет немного иным:
+GET https://{домен}/api/v1/partners/stores
+Accept: application/json
+Authorization: Bearer <token> - при JWT или OAuth2
+
+Могут быть также переданы query-параметры с фильтрацией по городу или пагинацией:
+GET https://{домен}/api/v1/partners/stores?city=Москва&limit=10&offset=0
+Accept: application/json
+Authorization: Bearer <token> - при JWT или OAuth2
